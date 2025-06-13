@@ -133,8 +133,8 @@ require (
 	github.com/open-feature/go-sdk v1.14.1 // @grafana/grafana-backend-group
 	github.com/open-feature/go-sdk-contrib/providers/go-feature-flag v0.2.3 // @grafana/grafana-backend-group
 	github.com/openfga/api/proto v0.0.0-20250127102726-f9709139a369 // @grafana/identity-access-team
-	github.com/openfga/language/pkg/go v0.2.0-beta.2.0.20250220223040-ed0cfba54336 // @grafana/identity-access-team
-	github.com/openfga/openfga v1.8.13 // @grafana/identity-access-team
+	github.com/openfga/language/pkg/go v0.2.0-beta.2.0.20250428093642-7aeebe78bbfe // @grafana/identity-access-team
+	github.com/openfga/openfga v1.8.15 // @grafana/identity-access-team
 	github.com/openzipkin/zipkin-go v0.4.3 // @grafana/oss-big-tent
 	github.com/patrickmn/go-cache v2.1.0+incompatible // @grafana/alerting-backend
 	github.com/phpdave11/gofpdi v1.0.14 // @grafana/sharing-squad
@@ -181,13 +181,13 @@ require (
 	golang.org/x/mod v0.24.0 // indirect; @grafana/grafana-backend-group
 	golang.org/x/net v0.40.0 // @grafana/oss-big-tent @grafana/partner-datasources
 	golang.org/x/oauth2 v0.29.0 // @grafana/identity-access-team
-	golang.org/x/sync v0.14.0 // @grafana/alerting-backend
+	golang.org/x/sync v0.15.0 // @grafana/alerting-backend
 	golang.org/x/text v0.25.0 // @grafana/grafana-backend-group
 	golang.org/x/time v0.11.0 // @grafana/grafana-backend-group
 	golang.org/x/tools v0.33.0 // indirect; @grafana/grafana-as-code
 	gonum.org/v1/gonum v0.16.0 // @grafana/oss-big-tent
 	google.golang.org/api v0.229.0 // @grafana/grafana-backend-group
-	google.golang.org/grpc v1.72.1 // @grafana/plugins-platform-backend
+	google.golang.org/grpc v1.72.2 // @grafana/plugins-platform-backend
 	google.golang.org/protobuf v1.36.6 // @grafana/plugins-platform-backend
 	gopkg.in/ini.v1 v1.67.0 // @grafana/alerting-backend
 	gopkg.in/mail.v2 v2.3.1 // @grafana/grafana-backend-group
@@ -323,7 +323,7 @@ require (
 	github.com/cespare/xxhash/v2 v2.3.0 // indirect
 	github.com/cheekybits/genny v1.0.0 // indirect
 	github.com/chromedp/cdproto v0.0.0-20240810084448-b931b754e476 // indirect
-	github.com/cloudflare/circl v1.6.0 // indirect
+	github.com/cloudflare/circl v1.6.1 // indirect
 	github.com/cncf/xds/go v0.0.0-20250121191232-2f005788dc42 // indirect
 	github.com/cockroachdb/apd/v3 v3.2.1 // indirect
 	github.com/coreos/go-semver v0.3.1 // indirect
@@ -355,7 +355,7 @@ require (
 	github.com/go-asn1-ber/asn1-ber v1.5.4 // indirect
 	github.com/go-git/gcfg v1.5.1-0.20230307220236-3a3c6141e376 // indirect
 	github.com/go-logfmt/logfmt v0.6.0 // @grafana/oss-big-tent
-	github.com/go-logr/logr v1.4.2 // indirect
+	github.com/go-logr/logr v1.4.3 // indirect
 	github.com/go-logr/stdr v1.2.2 // indirect
 	github.com/go-openapi/analysis v0.23.0 // indirect
 	github.com/go-openapi/errors v0.22.0 // indirect
@@ -463,7 +463,7 @@ require (
 	github.com/oasdiff/yaml3 v0.0.0-20250309153720-d2182401db90 // indirect
 	github.com/oklog/run v1.1.0 // indirect
 	github.com/oklog/ulid v1.3.1 // indirect
-	github.com/oklog/ulid/v2 v2.1.0 // indirect
+	github.com/oklog/ulid/v2 v2.1.1 // indirect
 	github.com/open-feature/go-sdk-contrib/providers/ofrep v0.1.5 // indirect
 	github.com/opencontainers/go-digest v1.0.0 // indirect
 	github.com/opencontainers/image-spec v1.1.0 // indirect
@@ -562,10 +562,10 @@ require (
 	gopkg.in/warnings.v0 v0.1.2 // indirect
 	k8s.io/apiextensions-apiserver v0.33.1 // indirect
 	k8s.io/kms v0.33.1 // indirect
-	modernc.org/libc v1.65.0 // indirect
+	modernc.org/libc v1.65.10 // indirect
 	modernc.org/mathutil v1.7.1 // indirect
-	modernc.org/memory v1.10.0 // indirect
-	modernc.org/sqlite v1.37.0 // indirect
+	modernc.org/memory v1.11.0 // indirect
+	modernc.org/sqlite v1.38.0 // indirect
 	sigs.k8s.io/apiserver-network-proxy/konnectivity-client v0.31.2 // indirect
 	sigs.k8s.io/json v0.0.0-20241010143419-9aa6b5e7a4b3 // indirect
 	sigs.k8s.io/yaml v1.4.0 // indirect
