@@ -68,7 +68,7 @@ require (
 	github.com/go-openapi/strfmt v0.23.0 // @grafana/alerting-backend
 	github.com/go-redis/redis/v8 v8.11.5 // @grafana/grafana-backend-group
 	github.com/go-sourcemap/sourcemap v2.1.4+incompatible // @grafana/grafana-backend-group
-	github.com/go-sql-driver/mysql v1.9.2 // @grafana/grafana-search-and-storage
+	github.com/go-sql-driver/mysql v1.9.3 // @grafana/grafana-search-and-storage
 	github.com/go-stack/stack v1.8.1 // @grafana/grafana-backend-group
 	github.com/gobwas/glob v0.2.3 // @grafana/grafana-backend-group
 	github.com/gogo/protobuf v1.3.2 // @grafana/alerting-backend
@@ -145,8 +145,8 @@ require (
 	github.com/open-feature/go-sdk v1.14.1 // @grafana/grafana-backend-group
 	github.com/open-feature/go-sdk-contrib/providers/go-feature-flag v0.2.3 // @grafana/grafana-backend-group
 	github.com/openfga/api/proto v0.0.0-20250127102726-f9709139a369 // @grafana/identity-access-team
-	github.com/openfga/language/pkg/go v0.2.0-beta.2.0.20250220223040-ed0cfba54336 // @grafana/identity-access-team
-	github.com/openfga/openfga v1.8.13 // @grafana/identity-access-team
+	github.com/openfga/language/pkg/go v0.2.0-beta.2.0.20250428093642-7aeebe78bbfe // @grafana/identity-access-team
+	github.com/openfga/openfga v1.9.0 // @grafana/identity-access-team
 	github.com/opentracing-contrib/go-grpc v0.1.1 // @grafana/grafana-search-and-storage
 	github.com/opentracing/opentracing-go v1.2.0 // @grafana/grafana-search-and-storage
 	github.com/openzipkin/zipkin-go v0.4.3 // @grafana/oss-big-tent
@@ -409,7 +409,7 @@ require (
 	github.com/hashicorp/go-immutable-radix v1.3.1 // indirect
 	github.com/hashicorp/go-metrics v0.5.4 // indirect
 	github.com/hashicorp/go-msgpack/v2 v2.1.2 // indirect
-	github.com/hashicorp/go-retryablehttp v0.7.7 // indirect
+	github.com/hashicorp/go-retryablehttp v0.7.8 // indirect
 	github.com/hashicorp/go-rootcerts v1.0.2 // indirect
 	github.com/hashicorp/go-secure-stdlib/parseutil v0.2.0 // indirect
 	github.com/hashicorp/go-secure-stdlib/strutil v0.1.2 // indirect
@@ -484,7 +484,7 @@ require (
 	github.com/oasdiff/yaml3 v0.0.0-20250309153720-d2182401db90 // indirect
 	github.com/oklog/run v1.1.0 // indirect
 	github.com/oklog/ulid v1.3.1 // indirect
-	github.com/oklog/ulid/v2 v2.1.0 // indirect
+	github.com/oklog/ulid/v2 v2.1.1 // indirect
 	github.com/open-feature/go-sdk-contrib/providers/ofrep v0.1.5 // indirect
 	github.com/opencontainers/go-digest v1.0.0 // indirect
 	github.com/opencontainers/image-spec v1.1.0 // indirect
@@ -588,10 +588,10 @@ require (
 	gopkg.in/telebot.v3 v3.2.1 // indirect
 	k8s.io/apiextensions-apiserver v0.33.2 // indirect
 	k8s.io/kms v0.33.3 // indirect
-	modernc.org/libc v1.65.0 // indirect
+	modernc.org/libc v1.65.10 // indirect
 	modernc.org/mathutil v1.7.1 // indirect
-	modernc.org/memory v1.10.0 // indirect
-	modernc.org/sqlite v1.37.0 // indirect
+	modernc.org/memory v1.11.0 // indirect
+	modernc.org/sqlite v1.38.0 // indirect
 	sigs.k8s.io/apiserver-network-proxy/konnectivity-client v0.31.2 // indirect
 	sigs.k8s.io/json v0.0.0-20241014173422-cfa47c3a1cc8 // indirect
 	sigs.k8s.io/yaml v1.5.0 // indirect
