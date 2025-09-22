@@ -5834,6 +5834,12 @@
             "$ref": "#/definitions/MSTeamsConfig"
           }
         },
+        "msteamsv2_configs": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/MSTeamsV2Config"
+          }
+        },
         "name": {
           "description": "A unique identifier for this receiver.",
           "type": "string"
@@ -6566,6 +6572,29 @@
         }
       }
     },
+    "MSTeamsV2Config": {
+      "type": "object",
+      "properties": {
+        "http_config": {
+          "$ref": "#/definitions/HTTPClientConfig"
+        },
+        "send_resolved": {
+          "type": "boolean"
+        },
+        "text": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        },
+        "webhook_url": {
+          "$ref": "#/definitions/SecretURL"
+        },
+        "webhook_url_file": {
+          "type": "string"
+        }
+      }
+    },
     "MatchRegexps": {
       "type": "object",
       "title": "MatchRegexps represents a map of Regexp.",
@@ -7106,6 +7135,12 @@
           "type": "array",
           "items": {
             "$ref": "#/definitions/MSTeamsConfig"
+          }
+        },
+        "msteamsv2_configs": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/MSTeamsV2Config"
           }
         },
         "name": {
@@ -7861,6 +7896,12 @@
           "type": "array",
           "items": {
             "$ref": "#/definitions/MSTeamsConfig"
+          }
+        },
+        "msteamsv2_configs": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/MSTeamsV2Config"
           }
         },
         "name": {
