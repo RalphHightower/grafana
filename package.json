@@ -86,7 +86,7 @@
   "devDependencies": {
     "@arethetypeswrong/cli": "^0.18.2",
     "@axe-core/playwright": "^4.11.1",
-    "@babel/core": "7.28.0",
+    "@babel/core": "7.29.6",
     "@babel/preset-env": "7.28.0",
     "@babel/runtime": "7.28.2",
     "@crowdin/crowdin-api-client": "^1.42.0",
@@ -410,7 +410,7 @@
     "react-redux": "9.2.0",
     "react-resizable": "3.0.5",
     "react-responsive-carousel": "^3.2.23",
-    "react-router": "5.3.4",
+    "react-router": "6.0.0",
     "react-router-dom": "5.3.4",
     "react-router-dom-v5-compat": "^6.26.1",
     "react-select": "5.10.2",
@@ -440,7 +440,7 @@
     "tween-functions": "^1.2.0",
     "type-fest": "^4.18.2",
     "uplot": "1.6.32",
-    "uuid": "11.1.0",
+    "uuid": "14.0.0",
     "vis-data": "^8.0.0",
     "vis-network": "10.0.2",
     "whatwg-fetch": "3.6.20"
